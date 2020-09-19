@@ -1,0 +1,33 @@
+---
+title: "Entrace-Survey"
+author: "Chris Kim"
+date: "9/19/2020"
+output: html_document
+---
+
+```{r}
+df<- read.csv("hudk4050-entrance-survey.csv",header= TRUE)
+
+mode(df$program)
+
+#simple math
+```
+
+
+```{r}
+7+8
+8/2
+x<- 8/12
+mode(x)
+x
+```
+
+```{r}
+mean(df$UTC)
+df$UTC.ms <- df$UTC*df$math.stat
+
+
+```
+
+
+
